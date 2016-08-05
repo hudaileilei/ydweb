@@ -1,0 +1,72 @@
+.common-widget-header {
+    @mainColor : #fd822a;
+    @textColor : #333;
+    .center {
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .header {
+        height: 96px;
+        line-height: 96px;
+        color: #textColor;
+        width: 1216px;
+        font-size: 18px;
+        .center;
+        font-family: '微软雅黑';
+        a {
+            text-decoration: none;
+            color: @textColor;
+        }
+        .logo {
+            float: left;
+            margin-top: 24px;
+            width: 225px;
+            height: 52px;
+            background: url(../../static/images/logo-top.png) no-repeat;
+        }
+        nav {
+            float: left;
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            li {
+                float: left;
+                padding: 0 20px;
+                a {
+                    // padding:5px;
+                }
+            }
+            .active a,
+            a:hover {
+                border-bottom: @mainColor 2px solid;
+                transition-duration: .5s;
+            }
+        }
+        .user {
+            margin-right: -23px;
+            float: right;
+            .search.expand {
+                width: 100px;
+                border: 1px solid @mainColor;
+                transition: all .5s ease-in .1s;
+                background-position: 3px center;
+            }
+            .search {
+                outline: none;
+                border: 1px solid transparent;
+                transition: all .5s ease-in .1s;
+                border-radius: 3px;
+                height: 27px;
+                width: 1px;
+                line-height: 27px;
+                padding-left: 29px;
+                background: url(../../static/images/search.png) 1px center no-repeat;
+            }
+            .link {
+                padding: 0 23px;
+            }
+        }
+    }
+}

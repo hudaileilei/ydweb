@@ -1,0 +1,30 @@
+@content-width: 1214px;
+.opacity-black{
+  background: #26252a;
+  height:544px;
+}
+.opacity-black .bg-image{
+  opacity: 0.05; 
+  width: 100%;
+}
+
+.footer_banner {
+	margin-top: 125px;
+	position: relative;
+	.footer_message {
+		position: absolute;
+		top: 0;
+		left: 50%;
+		width: @content-width;
+		margin-left: -@content-width/2;
+	}
+	.footer_message_box {
+		float: left;
+		&:first-child {
+			margin-left: -53px;
+		}
+		&:last-child {
+		    margin-right: -53px;
+		}
+	}
+}

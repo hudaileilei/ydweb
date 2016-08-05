@@ -1,0 +1,16 @@
+.w1215{
+	width:1215px;
+	margin:0 auto;
+}
+.container{
+	min-width: 1000px;
+}
+.clearfix:before,
+.clearfix:after {
+    display: table;
+    content: " ";
+}
+
+.clearfix:after {
+    clear: both;
+}

@@ -1,0 +1,12 @@
+__inline('libs/mod.js');
+__inline('libs/listener.js');
+__inline('libs/bigpipe.js');
+__inline('libs/react-with-addons.min.js');
+__inline('libs/react-dom.min.js');
+__inline('libs/reqwest.js');
+__inline('libs/immutable.min.js');
+__inline('libs/redux.min.js');
+__inline('libs/react-redux.js');
+__inline('libs/redux-thunk.min.js');
+__inline('libs/keyMirror.js');
+__inline('libs/swiper.min.js');

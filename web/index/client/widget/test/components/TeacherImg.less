@@ -1,0 +1,53 @@
+.teacherMoudle {
+   height: 286px;
+   width: 284px;
+   position: relative;
+   .img {
+       height: 100%;
+       width: 100%;
+       position: relative;
+   }
+   
+   img {
+       height: 100%;
+       width: 100%;
+   }
+   
+   .img:hover~.show {
+       display: block;
+   }
+   
+   .show {
+       height: 100%;
+       width: 100%;
+       background: #000;
+       opacity: 0.45;
+       position: absolute;
+       top: 0;
+       left: 0;
+       display: none;
+       &:hover {
+	       display: block;
+	   }
+	   .teacher_name {
+	       font-size: 24px;
+	       color: #fff;
+	       text-align: center;
+	       height: 30px;
+	       line-height: 30px;
+	       padding-top: 80px;
+	   }
+	   
+	   .teacher_info {
+	       font-size: 14px;
+	       color: #fff;
+	       line-height: 24px;
+	       padding-top: 25px;
+	       height: 24px;
+	       width: 210px;
+	       margin: 0 auto;
+	   }
+   }
+}
+
+

@@ -1,0 +1,43 @@
+.index-widget-test {
+    @content-width: 1214px;
+    @teacher-border: 1px solid #e7e7e7;
+    @title-color: #333333;
+    .teacher {
+        width: @content-width;
+        margin: 131px auto 0;
+        border-top: @teacher-border;
+        position: relative;
+        &:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+        .teacher_title {
+            position: absolute;
+            color: @title-color;
+            width: 210px;
+            left: 50%;
+            top: -15px;
+            margin-left: -105px;
+            text-align: center;
+            background: #fff;
+            font-size: 30px;
+        }
+        .tacher_box {
+            margin-top: 69px;
+        }
+    }
+    .teacher_img_box {
+        width: 284px;
+        height: 286px;
+		position: relative;
+        float: left;
+        background: red;
+        margin-left: 26px;
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+}

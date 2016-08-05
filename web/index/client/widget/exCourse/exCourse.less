@@ -1,0 +1,60 @@
+.index-widget-exCourse {
+    @fontfamily: 'Microsoft YaHei';
+    @colorfff: #fff;
+    @color333: #333;
+    @color333: #666;
+    @color999: #999;
+    @cwidth:1216px;
+    .borderRadius(@radius) {
+        -moz-border-radius: @radius;
+        -webkit-border-radius: @radius;
+        border-radius: @radius;
+    }
+    a {
+        text-decoration: none;
+    }
+    .ma {
+        margin: 0 auto;
+    }
+    .pr {
+        position: relative;
+    }
+    .c-width {
+        width: @cwidth;
+        position: relative;
+        margin: 0 auto;
+    }
+    .ex-course-h2 {
+        margin-top: 110px;
+        margin-bottom: 55px;
+        background: url(../../static/images/line-through.png) 0 center repeat-x;
+        text-align: center;
+    }
+    .ex-course-h2 span {
+        display: inline-block;
+        padding-left: 26px;
+        padding-right: 26px;
+        background-color: @colorfff;
+        font-size: 30px;
+        font-weight: normal;
+        font-family: @fontfamily;
+        color: @color333;
+    }
+    .ex-course-btn {
+        marign-bottom: 55px;
+    }
+    .ex-course-more {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        height: 36px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border: 1px solid @color999;
+        .borderRadius(18px);
+        font-size: 18px;
+        font-family: @fontfamily;
+        color: @color333;
+        line-height: 36px;
+    }
+}
